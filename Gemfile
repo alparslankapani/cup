@@ -12,6 +12,7 @@ gem 'bootstrap-sass', '~> 3.1.1'
 gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
 gem 'devise'
 gem 'aws-sdk', '~> 1.5.7'
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
 
 group :production do 
