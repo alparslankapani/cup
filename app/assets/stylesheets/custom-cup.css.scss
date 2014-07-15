@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg:                        #ecf0f1;
+$font-family-sans-serif:         'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:                   45px;
+$navbar-default-bg:               white;
+$navbar-default-brand-color:      #c0392b;
+$brand-primary:                   #c0392b;
+
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.col-md-3:nth-child(4n+1) {
+	clear: left;
+}
+
+.img {
+	background-image: url('sample.jpg');
+}
+
+.col-md-4 {
+	h3 {font-size: 45px;}
+	h5 {font-size: 25px;}
+	p {font-size: 18px}
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
+
+.jumbotron {
+	// background-repeat: no-repeat center;
+	width: auto;
+	height: 470px;
+	background-image: url('jumbotron.jpg');
+	h1, h2, h3, h4 {
+		font-family: 'Lato', guardian-egyptt, georgia, serif;
+		color: #c0392b;
+	}
+ }
+
+/* clearfix */
+  
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+  margin-top: 7px;
+}
